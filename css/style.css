@@ -1,0 +1,26 @@
+#container {
+    display: flex;
+    flex-flow: wrap;
+}
+
+#container div {
+    margin: 1rem;
+    flex-basis: 30%;
+    padding: 1rem;
+}
+
+.brown{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.dead {
+    background-color: rgba(0,0,0,0.5)
+}
